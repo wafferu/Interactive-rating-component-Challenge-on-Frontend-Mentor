@@ -7,4 +7,87 @@
   -webkit-box-sizing: border-box;
   list-style: none;
   text-decoration: none;
+  font-family: Tahoma, sans-serif;
+}
+
+body {
+
+  background-color: #141519;
+}
+
+.star {
+
+  display: inline-block;
+  border-radius: 50%;
+  background-color: #262f38;
+  padding: 0.8rem 1rem;
+  margin-bottom: 2rem;
+}
+
+.circle {
+  
+  border-radius: 50%;
+  background-color: #262f38;
+  font-weight: bold;
+  padding: 0.6rem 1rem;
+  color: #7c8898;
+}
+
+.circle:hover {
+
+  background-color: #fa7a16;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+#rating-state {
+
+  background-color: #202731;
+  margin: 8% auto;
+  width: 30%;
+  padding: 2%;
+  border-radius: 1rem;
+}
+
+#rating-state h1 {
+
+  color: #ffffff;
+  padding: 0.5rem 0;
+}
+
+#rating-state p {
+
+  color: #7c8898;
+  padding: 0.5rem 0;
+}
+
+#rating-state ul {
+
+  padding: 1rem 0;
+}
+
+#rating-state ul li {
+
+  display: inline;
+  margin-right: 0.5rem;
+}
+
+#rating-state button {
+
+  padding: 0.8rem 0;
+  margin: 1rem 0;
+  width: 100%;
+  border-radius: 1rem;
+  border: none;
+  background-color: #fa7a16;
+  color: #ffffff;
+  font-weight: bold;
+  letter-spacing: 0.2rem;
+}
+
+#rating-state button:hover {
+
+  background-color: #ffffff;
+  color: #fa7a16;
+  cursor: pointer;
 }
