@@ -50,6 +50,12 @@ body {
   cursor: pointer;
 }
 
+.active-rating {
+
+  background-color: hsl(216, 12%, 54%);
+  color: white;
+}
+
 #rating-state, #thank-you-state{
 
   background-color: #202731;

@@ -35,7 +35,7 @@
   <body>
     <!-- Rating state start -->
 
-    <div style="display: none" id="rating-state">
+    <div id="rating-state">
       <span class="star">
         <img src="images/icon-star.svg" alt="star-icon" />
       </span>
@@ -44,14 +44,14 @@
         Please let us know how we did with your support request. All feedback is
         appreciated to help us improve our offering!
       </p>
-      <ul>
+      <ul id="list-of-num-rating">
         <li><span class="circle">1</span></li>
         <li><span class="circle">2</span></li>
         <li><span class="circle">3</span></li>
         <li><span class="circle">4</span></li>
         <li><span class="circle">5</span></li>
       </ul>
-      <button>SUBMIT</button>
+      <button id="submitBtn">SUBMIT</button>
     </div>
 
     <!-- Rating state end -->
@@ -67,7 +67,7 @@
       </div>
       <div class="msg-holder">
         <span>You selected</span>
-        <span>4 out of 5</span>
+        <span id="rating-msg"> out of 5</span>
       </div>
       <h1>Thank you!</h1>
       <p>
@@ -85,5 +85,7 @@
       >. Coded by
       <a href="https://www.frontendmentor.io/profile/wafferu">Wafferu</a>.
     </div>
+
+    <script src="./scripts.js"></script>
   </body>
 </html>
