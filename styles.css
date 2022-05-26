@@ -15,6 +15,11 @@ p {
   font-size: 0.938rem;
 }
 
+.text-centered {
+
+  text-align: center;
+}
+
 body {
 
   background-color: hsl(216, 12%, 8%);
@@ -45,7 +50,7 @@ body {
   cursor: pointer;
 }
 
-#rating-state {
+#rating-state, #thank-you-state{
 
   background-color: #202731;
   margin: 13.969rem auto;
@@ -100,16 +105,50 @@ body {
   cursor: pointer;
 }
 
+/* -------------------------------------------------------------- */
+/* -------------------------------------------------------------- */
+/* -------------------------------------------------------------- */
+
+.illustrationHolder {
+
+  text-align: center;
+  margin: 1rem 0;
+}
+
+.msg-holder {
+
+  background-color: hsl(213, 19%, 18%);
+  color: hsl(25, 97%, 53%);
+  padding: 0.5rem;
+  border-radius: 1rem;
+  text-align: center;
+  width: 12.237rem;
+  margin: 1rem auto;
+}
+
+#thank-you-state h1 {
+
+  color: white;
+  font-size: 1.5rem;
+  margin: 1rem 0;
+}
+
+#thank-you-state p {
+
+  color: hsl(216, 12%, 54%);
+  margin: 1rem 0;
+}
+
 @media (max-width: 447px) {
-
-  #rating-state {
-
-    width: 85vw;
-  }
 
   .circle {
 
     padding: 3.8% 5.8%;
+  }
+
+  #rating-state, #thank-you-state {
+
+    width: 85vw;
   }
 
   #rating-state ul li { 

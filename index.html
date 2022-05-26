@@ -35,7 +35,7 @@
   <body>
     <!-- Rating state start -->
 
-    <div id="rating-state">
+    <div style="display: none" id="rating-state">
       <span class="star">
         <img src="images/icon-star.svg" alt="star-icon" />
       </span>
@@ -58,10 +58,17 @@
 
     <!-- Thank you state start -->
 
-    <div style="display: none" id="thank-you-state">
-      <span>You selected</span>
-      <!-- Add rating here -->
-      <span>out of 5</span>
+    <div id="thank-you-state" class="text-centered">
+      <div class="illustrationHolder">
+        <img
+          src="./images/illustration-thank-you.svg"
+          alt="illustration-thank-you"
+        />
+      </div>
+      <div class="msg-holder">
+        <span>You selected</span>
+        <span>4 out of 5</span>
+      </div>
       <h1>Thank you!</h1>
       <p>
         We appreciate you taking the time to give a rating. If you ever need
